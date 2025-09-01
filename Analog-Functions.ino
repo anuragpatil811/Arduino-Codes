@@ -9,6 +9,7 @@ void loop() {
    Serial.println(val);
    delay(1000);
 } */
+//Analog Write
 void setup()
 {
   
@@ -17,3 +18,4 @@ void loop()
 {
   analogWrite(6, 255);
 }
+
